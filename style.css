@@ -1,14 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #f8f9fa;
+    color: #333;
 }
 
 header {
-    background: #333;
+    background: #343a40;
     color: white;
     padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -26,25 +32,147 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #495057;
 }
 
 #hero {
     text-align: center;
-    padding: 4em 0;
-    background: #f4f4f4;
+    padding: 8em 0;
+    background: #6c757d;
+    color: white;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.8em 2em;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3em;
+    transition: background 0.3s;
+}
+
+.hero-content .btn:hover {
+    background: #0056b3;
 }
 
 section {
-    padding: 2em;
+    padding: 4em 2em;
     text-align: center;
 }
 
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.project-grid, .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+}
+
+.project-item, .blog-post {
+    background: white;
+    padding: 1em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img, .blog-post img {
+    width: 100%;
+    border-radius: 0.3em;
+}
+
+.project-item h3, .blog-post h3 {
+    margin-top: 0.5em;
+}
+
+.project-item p, .blog-post p {
+    margin: 0.5em 0;
+}
+
+.project-item .btn, .blog-post .btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.8em 1.5em;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3em;
+    transition: background 0.3s;
+}
+
+.project-item .btn:hover, .blog-post .btn:hover {
+    background: #0056b3;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form input, form textarea {
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    font-size: 1em;
+}
+
+form button {
+    padding: 0.8em 2em;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
 footer {
-    background: #333;
+    background: #343a40;
     color: white;
     text-align: center;
     padding: 1em 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 0.5em;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+footer .social a:hover {
+    color: #007bff;
 }
