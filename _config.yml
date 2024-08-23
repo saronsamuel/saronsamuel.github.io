@@ -25,7 +25,7 @@ author:
   name             : "Saron Samuel"
   pronouns         : # example: "she/her"  
   bio              : "I am a senior studying computer science."
-  location         : "Earth"
+  location         : #
   employer         : "Stanford University"
   uri              : # URL
   email            : "sdsam@stanford.edu" 
