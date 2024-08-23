@@ -12,9 +12,9 @@ var addressPoints = [
   ],
 
   [
-    "Portland, OR",
-    45.523064,
-    -122.676483
+    "Beaverton, OR",
+    45.5075,
+    -122.8273
   ],
 
   [
