@@ -9,7 +9,7 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "Talks"
+  - title: "Presentations"
     url: /talks/ 
 
   - title: "Publications"
@@ -17,9 +17,6 @@ main:
     
   - title: "Blog Posts"
     url: /year-archive/
-
-  - title: "Photography"
-    url: /photography/
     
      
         
