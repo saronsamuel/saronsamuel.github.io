@@ -28,5 +28,5 @@ Developed a spell-checker and word generation model for Afaan Oromoo, achieving 
 Work Experience
 ======
 1. **AfroWatch:** Software Engineer (Nov 2023 – Present)
-2. **Johns Hopkins Human Language Technology COE:** Visiting Research Scholar (June 2024 – August 2024)
+2. **JHU Human Language Technology COE:** Visiting Research Scholar (June 2024 – August 2024)
 3. **PricewaterhouseCoopers (PwC):** Products and Technology Intern (Summer 2023) 
