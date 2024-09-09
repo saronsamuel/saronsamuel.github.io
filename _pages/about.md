@@ -10,7 +10,7 @@ redirect_from:
 I'm Saron, a senior undergraduate Computer Science student at Stanford University.
 
 
-Research 🚀
+Research Projects
 ======
 
 1. **Video Event Retrieval:**
@@ -28,4 +28,5 @@ Developed a spell-checker and word generation model for Afaan Oromoo, achieving 
 Work Experience
 ======
 1. **AfroWatch:** Software Engineer (Nov 2023 – Present)
-2. **PricewaterhouseCoopers (PwC):** Products and Technology Intern (Summer 2023) 
+2. **Johns Hopkins Human Language Technology COE:** Visiting Research Scholar (June 2024 – August 2024)
+3. **PricewaterhouseCoopers (PwC):** Products and Technology Intern (Summer 2023) 
