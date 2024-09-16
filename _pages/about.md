@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm Saron, a senior undergraduate Computer Science student at Stanford University.
+I'm Saron, a senior undergraduate Computer Science student at Stanford University. **I am interested in X, Y, Z.... finish here...**
 
 
 Research Projects
@@ -23,7 +23,7 @@ Developed reranking methods within the DSPy framework, which were utilized in tr
 Implemented and evaluated MuRST for multilingual question answering, using recursive summarization trees and hard clustering, achieving a 3-8% improvement in F1 and BLEU scores across languages. Developed custom clustering algorithms for hierarchical summarization, enhancing QA accuracy for long-form documents.[Poster](https://drive.google.com/file/d/1XpTWYwMf4o6yhPb7HFD-jliCH-PW55jv/view?usp=sharing), [Paper](https://web.stanford.edu/class/cs224n/final-reports/256987799.pdf)
 
 4. **Afaan Oromoo Langauge Processing:**
-Developed a spell-checker and word generation model for Afaan Oromoo, achieving 57% accuracy and 63% precision in predicting misspellings. Conducted a comprehensive survey of around 100 native speakers to build a detailed dataset of common error types. This dataset was instrumental in training the model to better handle extended sounds (gemination), contributing significantly to language standardization efforts.
+Conducted a comprehensive survey of around 100 native speakers to build a detailed dataset of common error types. Developed a spell-checker and autofill model for Afaan Oromoo. 
 
 Work Experience
 ======
