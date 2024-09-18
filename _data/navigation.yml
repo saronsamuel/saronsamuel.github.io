@@ -12,8 +12,8 @@ main:
   # - title: "Presentations"
   #   url: /talks/ 
 
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
     
   # - title: "Fun Stuff!"
   #   url: /year-archive/
