@@ -26,6 +26,6 @@ Conducted a comprehensive survey of around 100 native speakers to build a detail
 
 Work Experience
 ======
-1. **AfroWatch:** Software Engineer (Nov 2023 – Present)
+1. **AfroWatch:** Kids Product Design Lead (Nov 2023 – Present)
 2. **JHU Human Language Technology COE:** Visiting Research Scholar (June 2024 – August 2024)
 3. **PricewaterhouseCoopers (PwC):** Products and Technology Intern (Summer 2023) 
