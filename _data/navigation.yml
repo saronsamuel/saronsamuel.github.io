@@ -15,8 +15,8 @@ main:
   - title: "Publications"
     url: /publications/
     
-  - title: "Fun Stuff!"
-    url: /year-archive/
+  # - title: "Fun Stuff!"
+  #   url: /year-archive/
     
      
         
