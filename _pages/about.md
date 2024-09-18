@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm Saron, a senior undergraduate Computer Science student at Stanford University. **I am interested in X, Y, Z.... finish here...**
-
+I’m Saron, a senior undergraduate Computer Science student at Stanford University. I am interested in natural language processing (NLP), information retrieval (IR), and AI for social impact. I’m passionate about using AI to address global challenges, particularly in multilingual contexts, low-resource languages, and cross-modal retrieval systems.
 
 Research Projects
 ======
