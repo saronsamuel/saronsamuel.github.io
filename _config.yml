@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate Computer Science student at Stanford University"
   location         : #
-  employer         : "Stanford University"
+  employer         : #"Stanford University"
   uri              : # URL
   email            : #
 
