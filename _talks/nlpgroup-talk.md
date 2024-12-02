@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "NLP Group Presentation"
 collection: talks
 type: "Talk"
@@ -8,4 +8,4 @@ date: 2023-12-07
 location: "Stanford, CA"
 ---
 
-This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.
+This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field. -->
