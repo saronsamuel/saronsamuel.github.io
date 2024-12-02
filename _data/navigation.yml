@@ -9,8 +9,8 @@ main:
   - title: "Research"
     url: /research/
 
-  # - title: "Presentations"
-  #   url: /talks/ 
+  - title: "Photography Portfolio"
+    url: /photography/ 
 
   # - title: "Publications"
   #   url: /publications/
