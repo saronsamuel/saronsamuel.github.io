@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
 
@@ -23,4 +23,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Under construction...
+I am a undergraduate in Computer Science at Stanford University, with a focus on natural language processing and information retrieval. My research explores multimodal retrieval, ranking algorithms, and low-resource languages. I am particularly interested in improving how models retrieve and process information from diverse data sources, including text, video, and multilingual content.
