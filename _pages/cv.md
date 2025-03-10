@@ -2,6 +2,7 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: flase
+nav: true
 nav_order: 5
-redirect: /_pages/final_cv.pdf # you can also use external links here
+cv_pdf: /_pages/final_cv.pdf # you can also use external links here
+---
