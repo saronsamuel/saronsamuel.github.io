@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/final_cv.pdf";
           },
-        },{id: "nav-thoughts",
-          title: "thoughts",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -388,8 +381,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-i-ve-committed-to-johns-hopkins-university-for-my-phd-in-computer-science",
-          title: 'I’ve committed to Johns Hopkins University for my PhD in Computer Science!',
+          section: "News",},{id: "news-i-ll-be-attending-johns-hopkins-for-my-cs-phd-honored-to-receive-the-percy-pierre-doctoral-fellowship",
+          title: 'I’ll be attending Johns Hopkins for my CS PhD, honored to receive the...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
