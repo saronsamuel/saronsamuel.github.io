@@ -14,7 +14,7 @@ ninja.data = [{
           description: "This page should direct to a PDF of my CV.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/assets/pdf/final_cv.pdf";
           },
         },{id: "post-a-post-with-image-galleries",
       
