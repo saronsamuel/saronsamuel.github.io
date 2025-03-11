@@ -15,7 +15,7 @@
 # redirect: https://saronsamuel.github.io/assets/pdf/final_cv.pdf
 
 layout: cv
-permalink: /cv/
+permalink: /assets/pdf/final_cv.pdf
 title: cv
 nav: true
 nav_order: 1
