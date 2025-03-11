@@ -11,10 +11,10 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "cv",
-          description: "you can also redirect to assets like pdf",
+          description: "This page should direct to a PDF of my CV.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_pages/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "post-a-post-with-image-galleries",
       
