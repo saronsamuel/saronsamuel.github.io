@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I’ll be attending Johns Hopkins for my CS PhD, honored to receive the Percy Pierre Doctoral Fellowship!
+I've committed to Johns Hopkins for my PhD in Computer Science
