@@ -10,8 +10,8 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-cv",
-          title: "cv",
-          description: "",
+          title: "CV",
+          description: "you can also redirect to assets like pdf",
           section: "Navigation",
           handler: () => {
             window.location.href = "/_pages/cv/";
