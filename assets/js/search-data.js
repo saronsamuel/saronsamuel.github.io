@@ -373,13 +373,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-named-a-vice-provost-of-undergraduate-education-stem-fellow",
+          title: 'Named a Vice Provost of Undergraduate Education STEM Fellow',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-gave-a-talk-at-stanford-nlp-group",
+          title: 'Gave a talk at Stanford NLP Group.',
+          description: "",
+          section: "News",},{id: "news-honored-to-receive-the-student-organization-leadership-award",
+          title: 'Honored to receive the Student Organization Leadership Award!',
+          description: "",
+          section: "News",},{id: "news-i-ll-be-a-visiting-research-scholar-at-the-human-language-technology-center-of-excellence-this-summer",
+          title: 'I’ll be a Visiting Research Scholar at the Human Language Technology Center of...',
           description: "",
           section: "News",},{id: "news-i-ll-be-attending-johns-hopkins-for-my-cs-phd-honored-to-receive-the-percy-pierre-doctoral-fellowship",
           title: 'I’ll be attending Johns Hopkins for my CS PhD, honored to receive the...',
