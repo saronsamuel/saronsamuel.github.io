@@ -7,7 +7,7 @@
 # redirect: /assets/pdf/final_cv.pdf
 
 layout: post
-title: CV
+title: cv
 nav: true
 nav_order: 3
 date: 2022-02-01 17:39:00
