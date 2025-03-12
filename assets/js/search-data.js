@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/final_cv.pdf";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -386,7 +393,7 @@ ninja.data = [{
           title: 'I’ll be a Visiting Research Scholar at the Human Language Technology Center of...',
           description: "",
           section: "News",},{id: "news-i-ve-committed-to-johns-hopkins-for-my-phd-in-computer-science",
-          title: 'I’ve committed to Johns Hopkins for my PhD in Computer Science',
+          title: 'I’ve committed to Johns Hopkins for my PhD in Computer Science.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
