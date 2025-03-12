@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -23,4 +23,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a undergraduate in Computer Science at Stanford University, with a focus on natural language processing and information retrieval. My research explores multimodal retrieval, ranking algorithms, and low-resource languages. I am particularly interested in improving how models retrieve and process information from diverse data sources, including text, video, and multilingual content.
+I am an undergraduate in Computer Science at Stanford University, with a focus on natural language processing and information retrieval. My research explores multimodal retrieval, ranking algorithms, and low-resource languages. I am particularly interested in improving how models retrieve and process information from diverse data sources, including text, video, and multilingual content.
