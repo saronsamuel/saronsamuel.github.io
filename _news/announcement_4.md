@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Named a Vice Provost of Undergraduate Education STEM Fellow
+Named a Vice Provost of Undergraduate Education STEM Fellow.
