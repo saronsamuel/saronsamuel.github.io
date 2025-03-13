@@ -17,7 +17,7 @@
 layout: cv
 permalink: /assets/pdf/final_cv.pdf
 title: cv
-nav: true
+nav: false
 nav_order: 1
 cv_pdf: final_cv.pdf
 description: This page should direct to a PDF of my CV.
