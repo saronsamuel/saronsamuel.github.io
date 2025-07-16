@@ -23,4 +23,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an BS/MS student in Computer Science at Stanford University, with a focus on natural language processing and information retrieval. My research explores multimodal retrieval, ranking algorithms, and low-resource languages. I am particularly interested in improving how models retrieve and process information from diverse data sources, including text, video, and multilingual content.
+I am a PhD student in Computer Science at Johns Hopkins University, with a focus on natural language processing and information retrieval. Previously I did my Bachelors and Masters in Computer Science at Stanford University. My research explores multimodal retrieval, ranking algorithms, and low-resource languages. I am particularly interested in improving how models retrieve and process information from diverse data sources, including text, video, and multilingual content.
