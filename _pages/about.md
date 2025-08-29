@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate at Stanford University, Class of 2025
+subtitle: CS PhD Student at Johns Hopkins University
 
 profile:
   align: right
@@ -23,4 +23,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Computer Science at Johns Hopkins University, with a focus on natural language processing and information retrieval. Previously I did my Bachelors and Masters in Computer Science at Stanford University. My research explores multimodal retrieval, ranking algorithms, and low-resource languages. I am particularly interested in improving how models retrieve and process information from diverse data sources, including text, video, and multilingual content.
+I am a first-year PhD student in Computer Science at Johns Hopkins University, advised by Eugene Yang and Benjamin Van Durme. I collaborate with people in the Center for Langauge and Speech Processing and the Human Language Technology Center of Excellence. Previously I did my Bachelors and Masters in Computer Science at Stanford University, where I worked with Omar Khattab and Chris Potts, and was advised by Mehran Sahami.
