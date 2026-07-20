@@ -29,4 +29,4 @@ A few recent projects: **CoverageBench**, a benchmark suite for measuring how co
 
 Before JHU, I completed my BS and MS in Computer Science at Stanford University, advised by Mehran Sahami, where I worked with [Omar Khattab](https://omarkhattab.com/) and [Chris Potts](https://web.stanford.edu/~cgpotts/) on building accurate neural retrieval and reranking models from very little labeled data. I'm a Percy Pierre Doctoral Fellow and a recipient of the Jun Wu and Yan Zhang Graduate Student Fellowship.
 
-I'm always glad to talk about information retrieval, fairness in ML systems, or mentoring in STEM — my [CV](/cv/) has the full history, and my [publications](/publications/) page has the papers. Feel free to [reach out](mailto:ssamue21@jhu.edu).
+I'm always glad to talk about information retrieval, fairness in ML systems, or mentoring in STEM — my [CV](/assets/pdf/final_cv.pdf) has the full history, and my [publications](/publications/) page has the papers. Feel free to [reach out](mailto:ssamue21@jhu.edu).
