@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Education, research experience, honors, and service. Click the icon above for a PDF version.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
