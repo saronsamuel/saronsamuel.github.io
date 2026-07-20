@@ -9,7 +9,35 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "post-a-post-with-image-galleries",
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Peer-reviewed papers and preprints, in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research projects and systems I&#39;ve built, each with a write-up on the motivation, approach, and results.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-news",
+          title: "news",
+          description: "Papers, talks, awards, and other updates.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Education, research experience, honors, and service. Click the icon above for a PDF version.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -361,12 +389,7 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-named-a-vice-provost-of-undergraduate-education-stem-fellow",
+    },{id: "news-named-a-vice-provost-of-undergraduate-education-stem-fellow",
           title: 'Named a Vice Provost of Undergraduate Education STEM Fellow.',
           description: "",
           section: "News",},{id: "news-gave-a-talk-at-stanford-nlp-group",
@@ -394,54 +417,41 @@ ninja.data = [{
           title: 'Awarded Jun Wu and Yan Zhang Graduate Student Fellowship.',
           description: "",
           section: "News",},{id: "news-paper-accepted-to-ecir-2026-paper-tweet",
-          title: 'Paper accepted to ECIR 2026! Paper Tweet',
+          title: 'Paper accepted to ECIR 2026! Paper, Tweet',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-paper-accepted-to-sigir-2026-paper-huggingface",
+          title: 'Paper accepted to SIGIR 2026! Paper, HuggingFace',
+          description: "",
+          section: "News",},{id: "projects-coveragebench",
+          title: 'CoverageBench',
+          description: "A benchmark suite for measuring whether search results actually cover what a query is asking about, not just whether each document is relevant.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_coveragebench/";
+            },},{id: "projects-does-reasoning-make-search-more-fair",
+          title: 'Does Reasoning Make Search More Fair?',
+          description: "The first systematic comparison of fairness between reasoning and non-reasoning rerankers, using TREC&#39;s Fair Ranking Track data.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_reasoning_fairness/";
+            },},{id: "projects-mmmorrf-fusing-every-modality-a-video-has-to-offer",
+          title: 'MMMORRF: Fusing Every Modality a Video Has to Offer',
+          description: "A multimodal, multilingual video retrieval system that stops over-indexing on visual content and actually listens to a video, too.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/3_mmmorrf/";
             },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%73%73%61%6D%75%65%32%31@%6A%68%75.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/saronsamuel", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
