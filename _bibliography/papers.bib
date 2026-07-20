@@ -1,2 +1,52 @@
----
----
+@inproceedings{samuel2026coverage,
+  abbr        = {SIGIR},
+  title       = {CoverageBench: Evaluating Information Coverage across Tasks and Domains},
+  author      = {Samuel, Saron and Yates, Andrew and Lawrie, Dawn and Soboroff, Ian and Adriaanse, Trevor and {Van Durme}, Benjamin and Yang, Eugene},
+  booktitle   = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year        = {2026},
+  arxiv       = {2603.20034},
+  html        = {https://arxiv.org/abs/2603.20034},
+  website     = {https://huggingface.co/datasets/hltcoe/coveragebench},
+  selected    = {true},
+  bibtex_show = {true},
+  abstract    = {Precision and recall are computed per-document, so a retrieval system can score well on both while still missing whole facets of a query's information need. CoverageBench is a benchmark suite for measuring how completely a set of retrieved documents covers the information relevant to a query, built from 334 topics across 7 existing collections (including CAsT, Fair Ranking, NeuCLIR, RAG, RAGTIME, and CRUX) with nugget-level relevance judgments and baseline results from BM25 and Qwen3-8B-based rerankers.}
+}
+
+@inproceedings{samuel2026reasoning,
+  abbr        = {ECIR},
+  title       = {Does Reasoning Make Search More Fair? Comparing Fairness in Reasoning and Non-Reasoning Rerankers},
+  author      = {Samuel, Saron and {Van Durme}, Benjamin and Yang, Eugene},
+  booktitle   = {Proceedings of the 48th European Conference on Information Retrieval},
+  year        = {2026},
+  arxiv       = {2603.10332},
+  html        = {https://arxiv.org/abs/2603.10332},
+  selected    = {true},
+  bibtex_show = {true},
+  abstract    = {Reasoning rerankers are increasingly used in search, but it was unknown whether their extra reasoning steps help or hurt fairness. We ran the first systematic comparison of fairness in reasoning versus non-reasoning rerankers, evaluating six models on the TREC 2022 Fair Ranking Track data. Reasoning neither reliably improves nor harms fairness: Attention-Weighted Rank Fairness stayed within a narrow 0.33-0.35 band across all models despite large swings in relevance quality, and geographic-attribute disparities persisted regardless of architecture, suggesting fairness has to be specifically trained for rather than assumed to emerge from better reasoning.}
+}
+
+@inproceedings{samuel2025mmmorrf,
+  abbr        = {SIGIR},
+  title       = {MMMORRF: Multimodal Multilingual Modularized Reciprocal Rank Fusion},
+  author      = {Samuel, Saron and DeGenaro, Dan and Guallar-Blasco, Jimena and Sanders, Kate and Eisape, Oluwaseun and Spendlove, Tanner and Reddy, Arun and Martin, Alexander and Yates, Andrew and Yang, Eugene and Carpenter, Cameron and Etter, David and Kayi, Efsun and Wiesner, Matthew and Murray, Kenton and Kriz, Reno},
+  booktitle   = {Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval (Demo Track)},
+  year        = {2025},
+  doi         = {10.1145/3726302.3730157},
+  html        = {https://dl.acm.org/doi/10.1145/3726302.3730157},
+  arxiv       = {2503.20698},
+  selected    = {true},
+  bibtex_show = {true},
+  abstract    = {Videos carry information across several channels at once: visuals, on-screen text, audio, and speech. Leading multimodal retrieval systems like VAST and LanguageBind lean almost entirely on the visual channel because they're built on vision-language models. MMMORRF instead extracts text and features from both the visual and audio modalities and fuses them with a modality-aware weighted reciprocal rank fusion, improving nDCG@20 by 81% over leading multimodal encoders and 37% over single-modality retrieval on the MultiVENT 2.0 and TVR benchmarks.}
+}
+
+@article{xian2024prompts,
+  abbr        = {arXiv},
+  title       = {Prompts as Auto-Optimized Training Hyperparameters: Training Best-in-Class IR Models from Scratch with 10 Gold Labels},
+  author      = {Xian, Jasper and Samuel, Saron and Khoubsirat, Faraz and Pradeep, Ronak and Sultan, Md Arafat and Florian, Radu and Roukos, Salim and Sil, Avirup and Potts, Christopher and Khattab, Omar},
+  journal     = {arXiv preprint arXiv:2406.11706},
+  year        = {2024},
+  arxiv       = {2406.11706},
+  html        = {https://arxiv.org/abs/2406.11706},
+  bibtex_show = {true},
+  abstract    = {We train compact neural retrieval models (under 100M parameters) from as few as 10 gold labels by using a language model to generate synthetic query-document training pairs, automatically optimizing the prompt used to generate them rather than hand-tuning it. The resulting small models rival much larger competitors like RankLLaMA, which are trained on 100K+ labels, showing that automatic prompt optimization can substitute for large-scale synthetic data curation.}
+}
